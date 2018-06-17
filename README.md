@@ -1,7 +1,7 @@
 # GitHub---Clear-History
 Clear history from forked GitHub repository
 <br>
--- Remove the history from <br>
+<i>-- Remove the history from</i><br>
 rm -rf .git
 
 -- recreate the repos from the current content only
