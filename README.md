@@ -4,11 +4,11 @@ Clear history from forked GitHub repository
 <i>-- Remove the history from</i><br>
 rm -rf .git
 
--- recreate the repos from the current content only
-git init
-git add .
-git commit -m "Initial commit"
+<i>-- recreate the repos from the current content only</i><br>
+git init<br>
+git add .<br>
+git commit -m "Initial commit"<br>
 
--- push to the github remote repos ensuring you overwrite history
-git remote add origin https://github.com/youraccount/githubrepository.git
+<i>-- push to the github remote repos ensuring you overwrite history</i><br>
+git remote add origin https://github.com/youraccount/githubrepository.git<br>
 git push -u --force origin master
